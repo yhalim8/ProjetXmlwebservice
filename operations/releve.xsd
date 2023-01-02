@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="releve" type="releve"/>
+
+  <xs:complexType name="releve">
+    <xs:sequence>
+      <xs:element name="solde" type="xs:double"/>
+      <xs:element name="date_releve" type="xs:string" minOccurs="0"/>
+      <xs:element name="Operations" type="operations" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="RIB" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="operations">
+    <xs:sequence>
+      <xs:element name="operation" type="operation" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="dateDebut" type="xs:string"/>
+    <xs:attribute name="dateFin" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="operation">
+    <xs:sequence/>
+    <xs:attribute name="type" type="type"/>
+    <xs:attribute name="date" type="xs:string"/>
+    <xs:attribute name="montant" type="xs:int" use="required"/>
+    <xs:attribute name="description" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:simpleType name="type">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Credit"/>
+      <xs:enumeration value="Debit"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+
