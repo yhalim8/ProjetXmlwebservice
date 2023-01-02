@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releve  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/hp/Desktop/Enset/technologie%20xml%20et%20web%20service/xml/projet%20xml%205112/releve.xsd" RIB="011112222333344445555666">
+    <dateReleve>2022-12-20</dateReleve>
+    <solde>14500</solde>
+    <operations dateDebut="2022-12-01" dateFin="2022-12-30">
+        <operation  type="CREDIT" date="2022-12-20" montant="9000" description="versEspece"/>
+        <operation type="DEBIT" date="2022-12-30" montant="3400" description="Cheque guichet"/>
+        <operation type="DEBIT" date="2022-12-25" montant="120" description="Virement"/>
+        <operation  type="CREDIT" date="2022-12-20" montant="70000" description="versEspece"/>
+    </operations>
+</releve>
