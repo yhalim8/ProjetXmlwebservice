@@ -13,9 +13,9 @@
     <img src="Partie_A/pics/xmlValideDTD.PNG" height="500px">
 <h3>3. Créer un schéma XML qui permet de déclarer la structure de ce document XML et créer
     un exemple de document XML valide par ce schéma XML</h3>
-    <img src="Premier_partie_Xml/pics/releve xsd.PNG" height="500px">
+    <img src="Partie_A/pics/releve xsd.PNG" height="500px">
     <h4>-- Schema xml validee par xsd</h4>
-    <img src="Premier_partie_Xml/pics/XmlValideXSD.PNG" height="500px">
+    <img src="Partie_A/pics/XmlValideXSD.PNG" height="500px">
 <h3>4. Créer une feuille de style XSL qui permet d’afficher les toutes les données de ce document
     XML au format HTML en affichant le total des opérations de débit et le total des
     opérations de crédit.</h3>
