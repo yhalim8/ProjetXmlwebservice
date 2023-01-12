@@ -41,7 +41,6 @@
         structure d'un relevé.</h3>
         <img src="Partie_B_C_E/pic/serial_shema.PNG" height="500px" > 
         <img src="Partie_B_C_E/pic/schema_xml.PNG" height="500px" > 
-
     <hr>
     <h3 style="color: brown;"><b>C : Partie Web services SOAP WSDL avec JaxWS </b></h3>
     <h3>1. Créer un Web services basé sur JaxWS qui permet de consulter un relevé:</h3>
@@ -55,7 +54,6 @@
     <img src="Partie_B_C_E/pic/TestSoapUI.PNG" height="500px" >
     <h3>5. Créer un Client SOAP Java.</h3>
     <img src="Partie_B_C_E/pic/clientws_consulting_releve.PNG" height="500px" >
-    
     <h3 style="color: brown;"><b>E. Ajouter des fonctionnalités supplémentaires susceptibles d'améliorer les fonctionnalités de
         votre projet </b></h3>
         <p>pour l'amelioration j'ai fait une methode pour avoir les operations par types soit credit ou debit</p>
