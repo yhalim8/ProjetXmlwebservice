@@ -28,8 +28,39 @@
     <h4>Format html : </h4>
     <img src="Partie_A/pics/typee credit.PNG">
     <h3 style="color: brown;"><b>B : Partie Mapping Objet XML avec Jax Binding :</b></h3>
-    <h4>Lien Github </h4>
+    <h4>Lien Github : </h4>
     <a href="https://github.com/yhalim8/ProjetXmlwebservice/tree/main/Partie_B_C_E/ReleveAPP"><button>Operation</button></a>
+    <h3>application Java qui permet de créer un Objet Releve avec quelques opérations
+        et de sérialiser ces données dans un fichier XML.</h3>
+        <img src="Partie_B_C_E/pic/serialisation.PNG" height="500px" >
+        <img src="Partie_B_C_E/pic/relevexml.PNG" height="500px" >
+    <h3>application Java qui permet de lire et d'afficher les données du relevé du fichier
+        XML.</h3>
+        <img src="Partie_B_C_E/pic/Deserialisation.PNG" height="500px" >
+    <h3>application Java qui permet de générer le Schéma XML représentant la
+        structure d'un relevé.</h3>
+        <img src="Partie_B_C_E/pic/serial_shema.PNG" height="500px" > 
+        <img src="Partie_B_C_E/pic/schema_xml.PNG" height="500px" > 
+
+    <hr>
+    <h3 style="color: brown;"><b>C : Partie Web services SOAP WSDL avec JaxWS </b></h3>
+    <h3>1. Créer un Web services basé sur JaxWS qui permet de consulter un relevé:</h3>
+    <img src="Partie_B_C_E/pic/WsReleve.PNG" height="500px" >
+    <h3>2. Créer un serveur JaxWS pour déployer le Web service</h3>
+    <img src="Partie_B_C_E/pic/serveur.PNG" height="500px" >
+    <h3>3. Analyser le WSDL en utilisant un Browser Web</h3>
+    <img src="Partie_B_C_E/pic/releveWSDL.PNG" height="500px" >
+    <img src="Partie_B_C_E/pic/shemaxml_wsdl.PNG" height="500px" >
+    <h3>4. Tester les méthodes du Web services en utilisant SoapUI</h3>
+    <img src="Partie_B_C_E/pic/TestSoapUI.PNG" height="500px" >
+    <h3>5. Créer un Client SOAP Java.</h3>
+    <img src="Partie_B_C_E/pic/clientws_consulting_releve.PNG" height="500px" >
     
+    <h3 style="color: brown;"><b>E. Ajouter des fonctionnalités supplémentaires susceptibles d'améliorer les fonctionnalités de
+        votre projet </b></h3>
+        <p>pour l'amelioration j'ai fait une methode pour avoir les operations par types soit credit ou debit</p>
+        <img src="Partie_B_C_E/pic/amelioationmethod.PNG" height="500px" >
+        <p>et voici le test SoapUI</p>
+        <img src="Partie_B_C_E/pic/Part4Soap.PNG" height="500px" >
 </body>
 </html>
